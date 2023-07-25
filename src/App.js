@@ -1,9 +1,6 @@
-import reportWebVitals from react;
-
 import "./App.css";
 
 function App() {
-  reportWebVitals(console.log);
   return (
     <div className="App">
       <header className="App-header">
@@ -24,7 +21,9 @@ function App() {
         </div>
         <div className="rightside">
           <div className="quote">
-            <blockquote>“Bull Markets Make You Money. Bear Markets Make You Rich.”</blockquote>
+            <blockquote>
+              “Bull Markets Make You Money. Bear Markets Make You Rich.”
+            </blockquote>
             <p className="quote-description">
               Take profits in bull markets. Accumulate aggressively in bear
               markets.
